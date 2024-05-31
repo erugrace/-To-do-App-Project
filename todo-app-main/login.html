@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in Page</title>
+    <link
+      rel="shortcut icon"
+      href="/Assets/to do icon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="logContainer">
+      <div>
+        <img
+          class="image"
+          src="/Assets/NicePng_user-icon-png_1280406.png"
+          alt=""
+        />
+      </div>
+      <h1>Welcome Back!</h1>
+      <div class="userDiv">
+        <img class="userImg" src="/Assets/pngwing.com.png" alt="" /><input
+          id="uname"
+          type="text"
+          placeholder="UserName"
+        />
+      </div>
+      <div class="passDiv">
+        <img class="passImg" src="/Assets/clipart4809465.png" alt="" /><input
+          id="pword"
+          type="text"
+          placeholder="Password"
+        />
+      </div>
+      <div>
+        <button id="log" onclick="validateLogin()">Log in</button>
+      </div>
+      <div class="link">
+        Don't have an account?
+        <a href="/todo-app-main/signup.html"><span>Sign Up</span></a>
+      </div>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>

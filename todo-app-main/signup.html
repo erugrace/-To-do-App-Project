@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up page</title>
+    <link
+      rel="shortcut icon"
+      href="/Assets/to do icon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="signup.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="signContainer">
+      <div>
+        <img
+          class="image"
+          src="/Assets/NicePng_user-icon-png_1280406.png"
+          alt=""
+        />
+      </div>
+      <h1>Create Profile.</h1>
+     
+      <div class="suserDiv">
+        <img class="userImg" src="/Assets/pngwing.com.png" alt="" /><input
+        id="uname"
+          type="text"
+          placeholder="UserName"
+        />
+      </div>
+      <div class="emailDiv">
+        <img
+          class="emailImg"
+          src="/Assets/email-icon-1024x815-7gaglzqv.png"
+          alt=""
+        /><input type="text" id="email"  placeholder="Email" />
+      </div>
+      <div class="spassDiv">
+        <img class="passImg" id="password" src="/Assets/clipart4809465.png" alt="" /><input
+          type="text"
+          id="pword"
+          placeholder="Password"
+        />
+      </div>
+   
+      <div>
+        <button id="sign" onclick="validateSignUp()">Sign up</button>
+      </div>
+      <div class="link">
+        Already have an account?
+        <a href="/todo-app-main/login.html"> <span> Log in</span></a>
+      </div>
+    </div>
+    <script src="signup.js"></script>
+  </body>
+</html>

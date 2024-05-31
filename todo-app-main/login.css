@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/Assets/back-school-seamless-pattern-vector-background_153454-5033.avif);
+  background-color: hsl(0, 0%, 98%);
+  font-family: "Outfit", sans-serif;
+}
+.logContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 15px;
+  border-radius: 15px;
+  padding: 50px;
+  background: linear-gradient(skyblue, violet);
+
+}
+h1{
+  color: hsl(235, 24%, 19%);
+  font-size: larger;
+   font-family: "Bree Serif", serif;
+}
+a{
+  color: white;
+  text-decoration: white;
+}
+input{
+    border: 0px;
+    font-size:smaller;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    background: transparent;
+}
+.image {
+  width: 100px;
+}
+.userImg {
+  width: 20px;
+}
+.passImg {
+  width: 20px;
+}
+button {
+  width: 200px;
+  font-size: larger;
+  height: 30px;
+border-radius: 30px;
+border: 0px;
+background-color: hsl(235, 24%, 19%);
+color: white;
+padding: 2px;
+box-shadow: 0 7px 8px rgba(0, 0, 0, 0.4);
+}
+.userDiv {
+  display: flex;
+  align-items: center;
+  border: 2px solid hsl(233, 11%, 84%);
+  gap: 15px;
+  padding: 10px;
+  border-radius: 5px;
+   font-family: "Bree Serif", serif;
+}
+.passDiv {
+  display: flex;
+  align-items: center;
+  border: 2px solid hsl(233, 11%, 84%);
+  gap: 15px;
+  padding: 10px;
+  border-radius: 5px;
+   font-family: "Bree Serif", serif;
+}
+.link{
+  font-size: x-small;
+  color: hsl(236, 33%, 92%);
+}
+span{
+  color: hsl(235, 19%, 35%);
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+.logContainer{
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.image{
+  width: 70px;
+}
+h1{
+  font-size:large;
+}
+#log{
+  font-size: medium;
+}
+}
